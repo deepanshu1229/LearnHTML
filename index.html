@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn HTML from basics to advanced with Hindi-friendly tutorials, examples, semantic tags, forms, tables, media, SEO tips, accessibility and quizzes.">
+    <meta name="keywords" content="learn html, html tutorial, html in hindi, html tags, html forms, html examples, web development basics">
+    <meta name="author" content="Learn HTML">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Learn HTML - Complete HTML Tutorial for Beginners">
+    <meta property="og:description" content="Master HTML with simple lessons, examples, roadmap, quiz and best practices.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/learn-html-hero.png">
+    <meta name="theme-color" content="#087f8c">
+    <title>Learn HTML - Complete HTML Tutorial, Examples and Quiz</title>
+    <link rel="preload" href="assets/learn-html-hero.png" as="image">
+    <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "Learn HTML",
+        "description": "Beginner-friendly HTML tutorials, examples, quizzes and roadmap.",
+        "sameAs": []
+    }
+    </script>
+    <meta name="google-site-verification" content="KO9qyUiDqtxCClkj0-IDmVi0y1bqa8cqFt6OghY8g5Y" />
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#home" aria-label="Learn HTML home">
+            <span class="brand-mark">&lt;/&gt;</span>
+            <span>Learn HTML</span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+            <a href="#tutorials">Tutorials</a>
+            <a href="#examples">Examples</a>
+            <a href="#roadmap">Roadmap</a>
+            <a href="#quiz">Quiz</a>
+            <a href="#faq">FAQ</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">Free HTML Tutorial for Beginners</p>
+                <h1>Learn HTML from zero to professional web pages.</h1>
+                <p class="hero-text">
+                    HTML web development ki foundation hai. Yahan aap tags, structure, forms,
+                    tables, media, semantic HTML, SEO aur accessibility step-by-step examples ke saath seekhenge.
+                </p>
+                <form class="topic-search" role="search">
+                    <label class="sr-only" for="topicSearch">Search HTML topics</label>
+                    <input id="topicSearch" type="search" placeholder="Search: forms, table, semantic tags..." autocomplete="off">
+                    <button type="submit">Search</button>
+                </form>
+                <div class="hero-actions">
+                    <a class="primary-action" href="#tutorials">Start Learning</a>
+                    <a class="secondary-action" href="#examples">View Examples</a>
+                </div>
+                <dl class="stats" aria-label="Website highlights">
+                    <div>
+                        <dt>40+</dt>
+                        <dd>HTML topics</dd>
+                    </div>
+                    <div>
+                        <dt>20+</dt>
+                        <dd>Code examples</dd>
+                    </div>
+                    <div>
+                        <dt>100%</dt>
+                        <dd>Beginner friendly</dd>
+                    </div>
+                </dl>
+            </div>
+            <div class="hero-media" aria-label="HTML learning workspace">
+                <img src="assets/learn-html-hero.png" alt="Laptop showing HTML code and a webpage preview">
+            </div>
+        </section>
+
+        <section class="trust-band" aria-label="What you will learn">
+            <span>HTML Tags</span>
+            <span>Forms</span>
+            <span>Tables</span>
+            <span>Semantic Layout</span>
+            <span>SEO Basics</span>
+            <span>Accessibility</span>
+        </section>
+
+        <section id="tutorials" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">Complete Course</p>
+                <h2>HTML ke important topics ek jagah</h2>
+                <p>Har topic me simple explanation, real-world use aur beginner-friendly example diya gaya hai.</p>
+            </div>
+
+            <div class="topic-grid" id="topicGrid">
+                <article class="topic-card" data-topic="html basics document structure doctype head body">
+                    <span>01</span>
+                    <h3>HTML Basics</h3>
+                    <p>HTML kya hai, browser kaise read karta hai, aur ek page ka basic skeleton kaise banta hai.</p>
+                    <code>&lt;!DOCTYPE html&gt;</code>
+                </article>
+                <article class="topic-card" data-topic="text formatting heading paragraph link anchor image">
+                    <span>02</span>
+                    <h3>Text, Links and Images</h3>
+                    <p>Headings, paragraphs, anchors, images, alt text aur content hierarchy ka practical use.</p>
+                    <code>&lt;a href=""&gt;</code>
+                </article>
+                <article class="topic-card" data-topic="lists ordered unordered description list">
+                    <span>03</span>
+                    <h3>HTML Lists</h3>
+                    <p>Ordered, unordered aur description lists se content ko clean structure dena seekhiye.</p>
+                    <code>&lt;ul&gt;&lt;li&gt;</code>
+                </article>
+                <article class="topic-card" data-topic="table tr th td caption">
+                    <span>04</span>
+                    <h3>Tables</h3>
+                    <p>Rows, columns, headers, captions aur accessible data tables ka correct structure.</p>
+                    <code>&lt;table&gt;</code>
+                </article>
+                <article class="topic-card" data-topic="forms input label select textarea button validation">
+                    <span>05</span>
+                    <h3>Forms</h3>
+                    <p>Labels, inputs, buttons, validation aur user-friendly contact or signup forms banana.</p>
+                    <code>&lt;form&gt;</code>
+                </article>
+                <article class="topic-card" data-topic="semantic html header nav main section article footer">
+                    <span>06</span>
+                    <h3>Semantic HTML</h3>
+                    <p>Header, nav, main, section, article aur footer ka use SEO aur accessibility dono improve karta hai.</p>
+                    <code>&lt;article&gt;</code>
+                </article>
+                <article class="topic-card" data-topic="media video audio picture source iframe">
+                    <span>07</span>
+                    <h3>Media Elements</h3>
+                    <p>Image, video, audio, picture aur iframe ko performance aur accessibility ke saath use karna.</p>
+                    <code>&lt;video&gt;</code>
+                </article>
+                <article class="topic-card" data-topic="seo meta title description open graph schema canonical">
+                    <span>08</span>
+                    <h3>HTML SEO</h3>
+                    <p>Title, meta description, canonical URL, Open Graph aur schema markup ka foundation.</p>
+                    <code>&lt;meta&gt;</code>
+                </article>
+            </div>
+            <p class="empty-state" id="emptyState" hidden>No matching topic found.</p>
+        </section>
+
+        <section id="examples" class="section examples-section">
+            <div class="section-heading compact">
+                <p class="eyebrow">Practice</p>
+                <h2>Real HTML examples</h2>
+            </div>
+
+            <div class="example-layout">
+                <div class="example-tabs" role="tablist" aria-label="HTML example tabs">
+                    <button class="tab-button active" type="button" data-example="page" role="tab" aria-selected="true">Page</button>
+                    <button class="tab-button" type="button" data-example="form" role="tab" aria-selected="false">Form</button>
+                    <button class="tab-button" type="button" data-example="seo" role="tab" aria-selected="false">SEO</button>
+                </div>
+                <pre class="code-panel"><code id="exampleCode">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;title&gt;My First Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;header&gt;Website Header&lt;/header&gt;
+  &lt;main&gt;
+    &lt;h1&gt;Welcome&lt;/h1&gt;
+    &lt;p&gt;This is my first HTML page.&lt;/p&gt;
+  &lt;/main&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+            </div>
+        </section>
+
+        <section id="roadmap" class="section roadmap-section">
+            <div class="section-heading">
+                <p class="eyebrow">Learning Path</p>
+                <h2>Beginner se job-ready foundation tak</h2>
+            </div>
+
+            <ol class="roadmap">
+                <li>
+                    <strong>Week 1: HTML structure</strong>
+                    <span>Document skeleton, headings, paragraphs, links, images and lists.</span>
+                </li>
+                <li>
+                    <strong>Week 2: Layout content</strong>
+                    <span>Tables, forms, semantic sections, reusable page blocks and clean naming.</span>
+                </li>
+                <li>
+                    <strong>Week 3: Quality basics</strong>
+                    <span>Accessibility, SEO tags, validation, performance-friendly images and best practices.</span>
+                </li>
+                <li>
+                    <strong>Week 4: Projects</strong>
+                    <span>Portfolio page, contact form, blog article layout and documentation page.</span>
+                </li>
+            </ol>
+        </section>
+
+        <section id="quiz" class="section quiz-section">
+            <div class="quiz-card">
+                <div>
+                    <p class="eyebrow">Quick Quiz</p>
+                    <h2>HTML knowledge check</h2>
+                    <p>Ek chhota sa quiz try kijiye. Answer turant check ho jayega.</p>
+                </div>
+                <form id="quizForm" class="quiz-form">
+                    <fieldset>
+                        <legend>Which tag is used for the most important heading?</legend>
+                        <label><input type="radio" name="heading" value="h1"> &lt;h1&gt;</label>
+                        <label><input type="radio" name="heading" value="p"> &lt;p&gt;</label>
+                        <label><input type="radio" name="heading" value="title"> &lt;title&gt;</label>
+                    </fieldset>
+                    <button type="submit">Check Answer</button>
+                    <p id="quizResult" class="quiz-result" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+
+        <section id="faq" class="section faq-section">
+            <div class="section-heading compact">
+                <p class="eyebrow">FAQ</p>
+                <h2>HTML ke common questions</h2>
+            </div>
+
+            <div class="faq-list">
+                <details>
+                    <summary>HTML seekhne me kitna time lagta hai?</summary>
+                    <p>Basic HTML 1-2 weeks me seekha ja sakta hai. Strong foundation ke liye forms, semantic tags, SEO aur accessibility par practice zaroor karein.</p>
+                </details>
+                <details>
+                    <summary>Kya HTML coding language hai?</summary>
+                    <p>HTML ek markup language hai. Iska kaam content ko structure dena hota hai; styling CSS se aur interaction JavaScript se hota hai.</p>
+                </details>
+                <details>
+                    <summary>Google me rank karne ke liye HTML me kya important hai?</summary>
+                    <p>Semantic structure, unique title, strong meta description, heading hierarchy, fast images, internal links, accessible content aur helpful original content important hote hain.</p>
+                </details>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div>
+            <strong>Learn HTML</strong>
+            <p>Simple tutorials, practical examples and clean web foundations.</p>
+        </div>
+        <p>Copyright 2026 Learn HTML. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
